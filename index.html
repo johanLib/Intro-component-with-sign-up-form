@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link href="./src/output.css" rel="stylesheet">
+  <link rel="icon" type="image/svg" sizes="32x32" href="./images/favicon-32x32.svg">
+  <link rel="stylesheet" href="style.css">
+  <meta name="author" content="Anass Seghir" />
+  <meta name="keywords" content="HTML, CSS, JavaScript, TailwindCSS, SEO, Front End, FrontEnd Mentor, Solution">
+  <meta name="description" content="This is a solution of the Intro Component With SignUp Form Challenge in FrontEnd Mentor">
+  <title>Intro component with sign up form</title>
+  <link rel="manifest" href="manifest.json">
+</head>
+<body class="box-border bg-[#ff7a7a] bg-[url('images/bg-intro-mobile.png')] bg-center bg-repeat md:bg-[url('/images/bg-intro-desktop.png')] py-14 px-5 text-center md:px-32">
+  <main class="md:grid md:grid-cols-2">
+    <div class="grid justify-center content-center px-7">
+        <div class="px-6">
+          <h1 class="text-white poppins-semibold text-2xl mb-7 md:poppins-bold md:text-5xl md:leading-[3.48rem] md:tracking-wide">Learn to code by watching others</h1>
+        </div>
+        <div class="text-justify md:text-left md:px-6">
+          <p class="poppins-regular text-sm text-white leading-6 mb-8">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+          but understanding how developers think is invaluable.</p>
+        </div>
+    </div>
+    <div>
+      <div class="bg-[#6055a5] px-9 py-3 text-white rounded-lg mb-5 shadow-custom xl:w-[27rem]">
+        <strong>Try it free 7 days</strong> then $20/mo. thereafter
+      </div>
+      
+      <form class="bg-white w-full p-5 rounded-lg xl:w-[27rem]">
+        <input type="text" id="fname" placeholder="First Name" class="placeholder-[#3e3c49] poppins-semibold text-sm p-4 border-[#b9b6d3] border border-solid rounded-md mb-3">
+        <p class="error_msg" id="error_fname"></p>
+        <input type="text" id="lname" placeholder="Last Name" class="placeholder-[#3e3c49] poppins-semibold text-sm p-4 border-[#b9b6d3] border border-solid rounded-md mb-3">
+        <p class="error_msg" id="error_lname"></p>
+        <input type="email" id="email" placeholder="Email Address" class="placeholder-[#3e3c49] poppins-semibold text-sm p-4 border-[#b9b6d3] border border-solid rounded-md mb-3">
+        <p class="error_msg" id="error_email"></p>
+        <input type="password" id="password" placeholder="Password" class="placeholder-[#3e3c49] poppins-semibold text-sm p-4 border-[#b9b6d3] border border-solid rounded-md mb-3">
+        <p class="error_msg" id="error_password"></p>
+
+        <input type="submit" id="btn_submit" value="Claim your free trial" class="bg-[#38cc8c] px-6 py-3 cursor-pointer uppercase poppins-regular text-base text-white rounded-md mb-2.5 shadow-button hover:shadow-custom2 hover:bg-[#6eedb6]">
+        <p class="text-xs text-[#b9b6d3] poppins-regular">By clicking the button, you are agreeing to our <a href="" class="text-[#ff7a7a] poppins-semibold">Terms and Services</a></p>
+      </form>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

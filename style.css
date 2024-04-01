@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+:root {
+    /*Primary*/
+
+    --Red: #ff7a7a;
+    --Green: #38cc8c;
+
+    /*Accent*/
+
+    --Blue: #6055a5;
+
+    /*Neutral*/
+
+    --Dark-Blue: #3e3c49;
+    --Grayish-Blue: #b9b6d3;
+}
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  form input {
+    width: 100%;
+  }
+.error_icon {
+  border: 2px solid hsl(0, 100%, 74%);
+  background-image: url(images/icon-error.svg);
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 95%;
+}
+.error_msg {
+  position: relative;
+  bottom: 9px;
+  font-size: 0.7rem;
+  font-style: italic;
+  text-align: right;
+  color: hsl(0, 100%, 74%);
+}
